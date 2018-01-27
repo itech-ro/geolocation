@@ -1,0 +1,33 @@
+{
+  "name": "itech-ro/geolocation",
+  "description": "Geolocation services",
+  "authors": [
+    {
+      "name": "JB",
+      "email": "roitech@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.6",
+    "guzzlehttp/guzzle": "^6.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Roitech\\Geolocation\\": "src"
+    },
+    "classmap": [
+      "src/Providers"
+    ]
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Roitech\\Geolocation\\GeolocationServiceProvider"
+      ],
+      "aliases": {
+        "Geolocation": "Roitech\\Geolocation\\Facades\\GeolocationFacade"
+      }
+    }
+  }
+}
