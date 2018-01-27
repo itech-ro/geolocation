@@ -1,6 +1,6 @@
 {
   "name": "itech-ro/geolocation",
-  "description": "Geolocation services",
+  "description": "Geolocation services for Laravel 5.x",
   "license": "MIT",
   "authors": [
     {
