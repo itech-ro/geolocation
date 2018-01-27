@@ -1,6 +1,7 @@
 {
   "name": "itech-ro/geolocation",
   "description": "Geolocation services",
+  "license": "MIT",
   "authors": [
     {
       "name": "JB",
